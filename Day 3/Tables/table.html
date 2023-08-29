@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            caption-side: bottom;
+            text-align: center;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+    <title>day3</title>
+</head>
+<body>
+    <!-- Tables,tag practice and form  -->
+
+    <a href="#content">Go to Content</a>
+    <br><br>
+    <a href="#Form">Go to Form</a>
+    <br><br>
+    <table border="1">
+        <caption>Table 1</caption>
+        <tr>
+            <th>Month</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>Jan</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>feb</td>
+            <td>104</td>
+        </tr>
+        <tr>
+            <td>Mar</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Apr</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <td>454</td>
+        </tr>
+
+    </table>
+    <br><br>
+
+    <table border="2">
+        <caption>Table 2</caption>
+        <!-- tr*5>td*3  -->
+        <tr>
+            <td colspan="2">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="2">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+          
+            <td>abcd</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table border="1">
+        <caption>Table 3</caption>
+        <colgroup>
+        <col span="2" style="background-color: brown;">
+        <col span="2" style="background-color: yellow;">
+        </colgroup>
+        
+        
+        <tr>
+            <td rowspan="2"> Sate of Health</td>
+            <td colspan="2"> Fasting Value</td>
+            <td> After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabates</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+     <h2 id="content">Content</h2>
+    <table border="1">
+        <caption>Table 4</caption>
+        <tr>
+            <th colspan="7">TIME-TABLE</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>History</td>
+            <td>Maths</td>
+            <td>English</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- tag practice  -->
+
+    <a href="tel: +917451880996">Call me</a>
+    <a href = "mailto: abc@example.com">Send Email</a>
+
+<h2 id="Form">Forms</h2>
+    <!-- Form-->
+    <fieldset>
+    <legend >Personal Details</legend>
+    <form action="">
+    <label for="">First Name: </label><input type="text" placeholder="Enter your first name">
+    <br><br>
+    <label>Last Name: </label><input type="text" placeholder="Enter Your Last name">
+    <br><br>
+    <label for="Email">Email: </label><input type="email" placeholder="Enter your Email">
+    <br><br>
+    <label for="contact">Contact: </label><input type="number" placeholder="Enter Your No.">
+    <br><br>
+    <label for="gender">Gender: </label>
+    <select name="gender" id="gender">
+        <option value="Select">Select</option>
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+       <option value="nottosay">Not to Say</option>
+    </select>
+    <br><br>
+    <label for="dob">Date of Birth: </label><input type="date" name="" id="">
+    <br><br>
+    Rating: 
+    <input type="radio" name="rating1" id="rating1" value="1">
+    <input type="radio" name="rating1" id="rating2" value="2">
+    <input type="radio" name="rating1" id="rating3" value="3">
+    <input type="radio" name="rating1" id="rating4" value="4">
+<br><br>
+    <label for="Feedback">Feedback: </label><textarea name="" id="" cols="20" rows="1" placeholder="Give your feedback"></textarea>
+     <br><br>
+    <input type="submit" name="submit" id="">
+    <input type="reset">
+
+
+
+    </form>
+    </fieldset>
+
+
+
+
+
+
+
+
+</body>
+</html>
