@@ -1,0 +1,62 @@
+#card{
+    height: 460px;
+    width: 280px;
+    border: 1px solid rgb(54, 44, 44);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(240, 245, 250, 0.692);
+    overflow: hidden;
+}
+
+img{
+    border-radius: 10px;
+    margin: 5px;
+    height: 150px;
+    filter: contrast(1);
+    filter: brightness(1.5);
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: rgba(240, 245, 250, 0.692);
+    padding: 4.5px;
+    text-decoration: none;
+    color: gray;
+    box-shadow: 1px 1px 1px black;
+    padding: 8px;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+     
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.read{
+      border: #fff;
+      padding: 12px 20px;
+      background-color: aqua;
+      color: rgb(144, 104, 238);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.read:hover{
+    background-color: rgb(153, 202, 202);
+}
+
+button:hover{
+    background-color: rgb(153, 202, 202);
+    color: black;
+}
+img:hover{
+    height: 147px;
+}

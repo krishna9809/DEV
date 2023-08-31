@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+}
+
+.mul{
+    text-shadow: 3px 3px 3px red,5px 5px 5px green;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px yellow;
+   
+
+}

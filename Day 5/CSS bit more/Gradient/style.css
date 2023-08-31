@@ -1,0 +1,41 @@
+.box1{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: linear-gradient(to right,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: linear-gradient(to left,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: linear-gradient(to top,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: linear-gradient(to bottom,rgb(191, 255, 17),rgb(57, 57, 124));
+    background-image: linear-gradient(to bottom,orange,white,green);
+
+}
+
+.box2{
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 10px;
+    width: 250px;
+    background-image: radial-gradient(rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: radial-gradient(to right,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: radial-gradient(to left,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: radial-gradient(to top,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: radial-gradient(to bottom,rgb(184, 181, 47),rgb(27, 27, 187));
+}
+
+.box3{
+    border: 1px solid black;
+    height: 250px;
+    margin-top: 10px;
+    width: 350px;
+    background-image: conic-gradient(rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: conic-gradient(to right,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: conic-gradient(to left,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: conic-gradient(to top,rgb(190, 52, 52),rgb(57, 57, 124));
+    background-image: conic-gradient(to bottom,rgb(5, 3, 3),rgb(57, 57, 124));
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px
+}
+
+
