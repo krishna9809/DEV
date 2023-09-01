@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.translated{
+    transform: perspective(15px) translatez(-4px);
+}
+
+.scale{
+    transform: perspective(500px) scaleZ(4) rotateX(20deg) rotateY(20deg);
+}
+
+.rotate{
+    margin-left: 40px;
+    transform: rotateZ(30deg);
+}

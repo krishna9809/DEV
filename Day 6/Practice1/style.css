@@ -1,0 +1,43 @@
+.box{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgba(209, 31, 31, 0.781),rgb(255, 255, 255), rgb(57, 201, 57));
+}
+
+.text{
+    display: inline-block;
+    color: rgb(34, 80, 121);
+}
+
+#text1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#text2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#text3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#text4{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#text5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

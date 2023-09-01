@@ -1,0 +1,49 @@
+/* h1{
+    position: static;
+}  */
+
+/* Position */
+
+.wrapper{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(184, 184, 64);
+}
+ div{
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+    background-color: blueviolet;
+} 
+
+/* Position Relative */
+
+
+/* #box3{
+    position: relative;
+    top: 100px;
+}  */
+
+/* Position Absolute  */
+
+#box3{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+/* Position Fixed  no scroll */
+/* 
+#box1{
+    position: fixed;
+}  */
+
+ /* Position Sticky  */
+ #box4{
+    position: sticky;
+    top: 0px;
+ }
+
+
