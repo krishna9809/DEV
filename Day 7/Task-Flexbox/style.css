@@ -1,0 +1,57 @@
+
+.box{
+    height: 600px;
+    padding-top: 40px;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
+
+h3{
+    color: chartreuse;
+}
+
+input{
+    height: 30px;
+}
+
+button{
+    height: 36px;
+    width: 80px;
+    background-color: rgb(135, 206, 65);
+    border: 0;
+    color: #fff;
+}
+
+.box-4-1{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-4-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    color: brown;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.social a i{
+    font-size: 25px;
+}
