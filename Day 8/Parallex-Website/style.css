@@ -35,8 +35,9 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* object-fit: cover; */
 }
+    /* object-fit: cover; */
+
 
 
 #naruto{
@@ -92,11 +93,7 @@ section{
     text-transform: uppercase;
     font-size: 3.5rem;
     font-weight: 600;
-
 }
-
-
-
 
 .bg-1{
     background-image: url(background2.jpg);
@@ -108,4 +105,4 @@ section{
 
 .bg-3{
     background-image: url(background4.jpg);
-}
+} 
