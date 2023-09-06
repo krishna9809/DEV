@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin: 25px;
+    position: relative;
+    padding: 1rem;
+    height: 450px;
+    width: 400px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+    background-color: #a62121;
+    color: #fbf7f7;
+    cursor: pointer;
+    text-align:center;
+    flex-wrap: wrap;
+}
+img{
+    height: 100%;
+    width: 100%;
+    user-select: none;
+}
+
+#box-2{
+    background-color: #4bb7e6;
+}
+
+.pro-img{
+    height: 230px;
+    width: 100%;
+    transform: translate(0, -1.5rem);
+    transition: transform 500ms ease-in-out;
+    filter: drop-shadow(5px 10px 15px rgba(8,9,13,0.4));
+}
+
+.box:hover  .pro-img{
+    transform: translate(-1.5rem, -7rem) rotate(10deg);
+}
+
+.box:hover  #img2{
+    transform: translate(-1.5rem, -7rem) rotate(-20deg);
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+p{
+    margin: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.tag{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+.tag-1{
+    background-color: #141414;
+    padding: 0.6rem 3.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 300ms ease;
+}
+
+.tag-1:hover{
+    background-color: #3a3a3a;
+}
+
+.tag-2{
+    box-sizing: border-box;
+    background: #fff;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #000;
+    display: grid;
+    place-items: center;
+}
+
+.svg{
+    height: 25px;
+    width: 25px;
+    transition: all 500ms ease;
+}
+
+@media screen  and (max-width: 800px){
+    body{
+        height: auto;
+    }
+    .wrapper{
+        padding: 2rem 0;
+        width: 100%;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+}
