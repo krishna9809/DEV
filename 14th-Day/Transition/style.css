@@ -1,0 +1,50 @@
+
+:root{
+    --blue: #315adf;
+    --red: #454;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    background-color: var(--blue);
+    border: 1px solid var(--red);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow:-moz-hidden-unscrollable;
+}
+
+.box{
+    height: 8em;
+    background: linear-gradient(rgba(48, 106, 182, 0.685),rgb(190, 44, 44));
+    width: 8em;
+    margin: 10px;
+    text-align: center;
+    padding: 3%; 
+
+    transition: 1s ease-in-out;    
+}
+
+.box:hover{
+    width: 14em;
+    height: 14em;
+    transform: rotate(360deg) translatez(40px);
+    margin: 30px;
+    padding: 30px;
+}
+#box4:hover{
+        width: 14em;
+        height: 14em;
+        transform: rotatex(360deg);
+        margin: 30px;
+        padding: 30px;
+    
+}
+
