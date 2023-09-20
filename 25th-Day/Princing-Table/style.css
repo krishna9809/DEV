@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.heading {
+    margin-top: 3rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    background: #f7f7ff;
+    text-align: center;
+
+}
+
+.pack {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+.pack-in {
+    text-align: center;
+    padding-top: 0.8rem;
+    background-color: bisque;
+    color: rgb(11, 20, 20);
+    font-size: large;
+    font-style: bold;
+    height: 3rem;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.detail-in {
+    height: 22rem;
+    width: 15rem;
+    background-color: aliceblue;
+    margin: 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card {
+    background: #fff;
+    color: hsl(233, 13%, 49%);
+    border-radius: 0.8rem;
+}
+
+ul {
+    /* margin: 2.6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+ul li.price {
+    font-size: 3rem;
+    color: hsl(232, 13%, 33%);
+    padding-bottom: 2rem;
+}
+
+.shadow {
+    box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.active .price {
+    color: #000000;
+}
+
+.btn {
+    margin-top: 1rem;
+    height: 2.6rem;
+    width: 13.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(135deg,
+            rgba(163, 168, 240, 1) 0%,
+            rgba(105, 111, 221, 1) 100%);
+    color: #000000;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+}
+
+
+.bottom-bar {
+    border-bottom: 2px solid hsla(240, 12%, 47%, 0.582);
+    color: #000000;
+}
+
+.card .bottom-bar {
+    border-bottom: 2px solid hsla(240, 8%, 85%, 0.253);
+}
+
+.pack {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 2rem;
+  }
+  
