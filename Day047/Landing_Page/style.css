@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Fjalla+One&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Rubik&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.back{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.front{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.working-area{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    max-width: 1700px;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-left img{
+    height: 40px;
+    fill: #fff;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    pointer-events: all;
+
+}
+
+.hero{
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    height:fit-content;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between ;
+}
+
+.hero-left{
+    min-width: 50%;
+  
+    /* background-color: rgb(233, 124, 46); */
+}
+
+ .hero-left .texts{
+    height: 6vw;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-left .texts h1{
+    line-height: 1;
+    font-family:'Rubik';
+    font-size: 6vw;
+    font-weight: 900;
+}
+
+.hero-left button{
+    margin: 3vw 0;
+    padding: 1vw 3vw;
+    font-size: 2vw;
+    pointer-events: all;
+}
+
+.hero-right{
+    width: 20%;
+    color: #fff;
+    font-size: 'gilroy';
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+.hero-right .short-img{
+    height: 170px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-image: url(image/short-img.jpg);
+    background-size: cover;
+}
+
+
+.hero-right p:nth-child(3){
+    margin-bottom: 50px;
+}
+
