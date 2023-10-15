@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Fjalla+One&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Marvel:wght@700&family=Rubik&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #ED1D24;
+
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: #141415;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.nav .logo img{
+    height: 50px; 
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Marvel';
+    transition: 300ms all;
+    
+}
+
+.nav-items{
+    height:fit-content;
+    width: 25%;
+}
+
+.nav-items:hover{
+ transform: scaley(1.07);
+}
+
+.sign-up{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 50px;
+    color: #ED1D24;
+    width: 25%;
+    background-color: #fff;
+    transition: 300ms all;
+}
+
+.sign-up:hover{
+    transform: scale(1.05);
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px 30px 20px 30px;
+
+}
+
+.gal-items{
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(255, 1, 1, 0.24) 0px 3px 8px;
+    transition: 300ms all;
+ 
+}
+
+.gal-items:hover {
+    transform: scale(1.05);
+}
+
+.gal-items:nth-child(1){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/321/601/107/venom-comics-artwork-saliva-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(2){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/695/151/754/deadpool-deadpool-2-marvel-cinematic-universe-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(3){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/484/627/759/the-avengers-avengers-endgame-ant-man-black-panther-marvel-comics-black-widow-hd-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(4){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/296/400/37/movie-avengers-infinity-war-black-panther-movie-black-widow-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(5){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/628/841/95/red-spider-man-marvel-comics-black-background-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(6){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/152/4/45/low-poly-superhero-iron-man-digital-art-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(7){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/293/952/22/iron-man-marvel-comics-superhero-the-avengers-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(8){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/806/269/263/captain-america-the-winter-soldier-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(9){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/983/290/402/captain-america-the-winter-soldier-chris-evans-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(10){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/96/298/467/girl-girl-actress-hero-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(11){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/372/458/565/hulk-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(12){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/94/578/405/avengers-infinity-war-2018-red-chris-hemsworth-movie-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(13){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/776/211/785/iron-man-marvel-comics-superhero-tony-stark-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(14){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/224/829/129/digital-digital-art-artwork-illustration-simple-hd-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(15){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1007/704/1021/comics-groot-baby-groot-guardians-of-the-galaxy-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(16){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/102/204/987/black-panther-black-background-minimalism-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(17){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/123/401/79/video-games-digital-art-spider-man-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(18){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/37/979/598/iron-man-hulk-marvel-cinematic-universe-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(19){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/340/197/235/doctor-strange-benedict-cumberbatch-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.gal-items:nth-child(20){
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/411/184/967/venom-dark-marvel-comics-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #141415;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.logo2{
+    height: 10px;
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    transition: 200ms all;
+}
+
+li:hover{
+    color: #a7a7b4;
+    cursor: pointer;
+}
+.foot-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-family: 'Marvel';
+    font-weight: 900;
+}
+
+@media screen and (min-width: 1920px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-items:nth-child(3){
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .nav-items:nth-child(4){
+      font-size: 20px;
+        
+    }
+
+    h3{
+        text-align: center;
+        color: #000000;
+        font-size: 19px;
+        font-family: 'Marvel';
+        font-weight: 900;
+    }
+
+
+}
+
+@media screen and (max-width: 599px) {
+    
+    .nav{
+        height: 100px;
+    }
+
+    .nav-items{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .sign-up{
+        visibility: visible;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        height: 50px;
+        color: #ED1D24;
+        width: 60%;
+        background-color: #fff;
+        transition: 300ms all;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .foot-items:nth-child(3){
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .logo2{
+        margin-top: -20px;
+    }
+
+    .logo2 img{
+        height: 40px;
+    }
+
+    footer{
+        height: 200px;
+        margin-bottom: 0;
+        padding-top: 30px;
+    }
+    .foot-items{
+    
+        font-size: 10px;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:end;
+    }
+
+    h3{
+        text-align: center;
+        margin-bottom: 19px;
+        font-size: 15px;
+        font-family: 'Marvel';
+        font-weight: 900;
+    }
+}
+
+
+
+   
