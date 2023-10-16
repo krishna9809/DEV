@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Style Property Example</title>
+    <link rel="StyleSheet" href="example.css" />
+    <script>
+      function setStyle() {
+        document.getElementById("d").style.color = "orange";
+      }
+      function resetStyle() {
+        document.getElementById("d").style.color = "black";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="d" class="thunder">Thunder</div>
+    <button onclick="setStyle()">Click here to change text color</button>
+    <button onclick="resetStyle()">Reset text color</button>
+  </body>
+</html>
