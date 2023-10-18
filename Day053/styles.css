@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to header */
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Style sections with some padding and background color */
+main section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the impact choices, donation amount, and form fields */
+/* ... add your styles for these sections ... */
+
+/* Style the Donate Now button */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* Apply basic styles to the footer */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+footer img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
