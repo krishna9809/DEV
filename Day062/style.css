@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: #603813;
+    background: linear-gradient(to right, #b29f94, #603813);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box{
+    height: 150px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Fantasy';
+}
+
+.small-box-1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.small-box-2{
+    border-radius: 5px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.item{
+    width: 90px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item button{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background-color: transparent;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-icon{
+    border-left: 2px solid rgba(119, 30, 30, 0.644);
+}
+
+.minus-icon{
+    border-right: 2px solid rgba(119, 30, 30, 0.644);
+}
