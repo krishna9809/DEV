@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3fe7d890af.js" crossorigin="anonymous"></script>        
+    <link rel="stylesheet" href="style.css"> 
+    <title>Javascript 2nd Project</title>
+</head>
+<body>
+
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+
+    <div class="wrapper">
+        <div class="main-box">
+         <div class="img">
+         </div>
+         <div class="head-1">
+           Krishna Sharma
+         </div>
+         <div class="head-2">
+          Frontend Developer
+         </div>
+
+         <div class="follow">
+           <div class="share-button" onclick="openModal()">
+            <button>
+            <i class="fa-solid fa-share"></i>
+             Share My Profile
+            </button>
+           </div>
+
+           <div class="follow-button">
+            <button>
+                Follow me
+            </button>
+           </div>
+         </div>
+        </div>
+    </div>
+
+    <div class="share-modol">
+
+        <div class="header">
+         <div class="head-1">
+            Share My Profile
+         </div>
+         <div class="cross" onclick="closeModal()">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+         </div>
+        </div>
+        <div class="share">
+        Share this via
+        </div>
+        <div class="social-icon">
+        <div class="social"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="social"><i class="fa-brands fa-twitter"></i></div>
+        <div class="social"><i class="fa-brands fa-instagram"></i></div>
+        <div class="social"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="social"><i class="fa-brands fa-telegram"></i></div>
+        </div>
+            
+    </div>
+
+    <div class="overlay" onclick="closeModal()">
+        
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
