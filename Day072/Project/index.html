@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fe7d890af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Heading  -->
+
+        <div class="main-head">
+            <h1>PASSWORD GENERATOR</h1>
+        </div>
+
+        <!-- Display Div  -->
+
+        <div class="display">
+            <div class="input-field">
+                <input type="text">
+            </div>
+            <div class="copy">
+                <button><i class="fa-regular fa-copy"></i></button>
+            </div>
+        </div>
+
+        <div class="password-rule">
+            <div class="length">
+                <div class="length-text">Password Length</div>
+                <div class="length-count">1</div>
+            </div>
+
+            <div class="slider">
+                <input type="range" min="1" max="100" value="50">
+            </div>
+
+            <div class="checkboxs">
+                <div class="check"><input type="checkbox" name="Upper" id=""> <label for="Upper">Include Uppercase
+                        Letters</label>
+                </div>
+                <div class="check"><input type="checkbox" name="Lower" id=""> <label for="Lower">Include Lowercase
+                        Letters</label>
+                </div>
+                <div class="check"><input type="checkbox" name="Num" id=""> <label for="Num">Include Numbers</label>
+                </div>
+                <div class="check"><input type="checkbox" name="Sym" id=""> <label for="Sym">Include Symbols</label>
+                </div>
+            </div>
+            <div class="strength">
+                <div class="strength-text">
+                    Strength
+                </div>
+                <div class="strength-light">
+
+                </div>
+            </div>
+
+            <div class="generate-button">
+                <button>GENERATE PASSWORD</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

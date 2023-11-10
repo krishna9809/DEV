@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Fjalla+One&family=Iceland&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@200&family=Lilita+One&family=Londrina+Solid&family=Rubik&family=Rubik+Dirt&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #101820;
+    background-size: cover;
+    font-family: 'Lilita One';
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    height: 550px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    padding: 30px;
+    color: #101820;
+}
+
+.main-head{
+    font-size: 18px;
+    color: #fff;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #FEE715;
+    height: 170px;
+    border-radius: 12px;
+    width: 100%;
+    align-items: center;
+    color: #101820;
+}
+
+.display input{
+    background-color: transparent;
+    border: none;
+}
+.display button{
+    background-color: #FEE715;
+    border: none;
+}
+
+.display i{
+    font-size: 25px;
+    color: #000;
+}
+
+.password-rule{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:  #FEE715;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.length{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider input{
+    width: 100%;
+}
+
+.checkboxs{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 10px;
+}
+
+
+
+.check{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.strength{
+    display: flex;
+    justify-content: space-between;
+}
+
+.strength-light{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #101820;
+}
+
+
+.generate-button button{
+    height: 40px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: none;
+    border: none;
+    font-family: 'Lilita One';
+    font-size: 18px;
+    background-color: #101820;
+    color: #fff;
+}
