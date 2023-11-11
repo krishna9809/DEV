@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper{
-    height: 550px;
+    height: 600px;
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -51,10 +51,23 @@ body {
 .display input{
     background-color: transparent;
     border: none;
+    font-family: 'Lilita One';
+    font-size: 20px;
 }
+
+input[type="checkbox"] {
+
+    border: 1px solid #101820;
+}
+
+.display input::placeholder {
+    color: #101820;
+  }
+
 .display button{
     background-color: #FEE715;
     border: none;
+    cursor: pointer;
 }
 
 .display i{
@@ -106,6 +119,7 @@ body {
     width: 20px;
     border-radius: 50%;
     background-color: #101820;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 
