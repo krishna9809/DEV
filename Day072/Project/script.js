@@ -20,7 +20,7 @@ let passwordLength = 10;
 let checkCount = 1;
 handleSlider();
 
-// Set Paaword Length
+// Set Password Length
 
 function handleSlider() {
     inputSlider.value = passwordLength;
@@ -76,5 +76,33 @@ function calcStrength() {
     }
 }
 
+async function copyContent() {
+    try {
+        await navigator.clipboard.writeText(passwordDisplay.value);
+        copyMsg.innerText = "copied";
+    }
+    catch(e) {
+        copyMsg.innerText = "Failed";
+    }
+    //to make copy wala span visible
+    copyMsg.classList.add("active");
+
+    setTimeout( () => {
+        copyMsg.classList.remove("active");
+    },2000);
+
+}
 
 
+function shufflePassword(array) {
+    //Fisher Yates Method
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    let str = "";
+    array.forEach((el) => (str += el));
+    return str;
+}
