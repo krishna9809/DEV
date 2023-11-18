@@ -8,9 +8,15 @@ document.addEventListener("mousemove",function(dets) {
     blur.style.top = dets.y - 250 +"px";
 })
 
+var h4all = document.querySelectorAll("#nav h4")
 
-
-
+// h4all.forEach(function(elem){
+//     elem.addEventListener("mouseenter", function(){
+//         crsr.style.scale = 3
+//         crsr.style.border = "4px solid #95C11E"
+//         crsr.style.backgroundColor = "#000"
+//     })
+// })
 
 
 gsap.to("#nav",{
@@ -36,3 +42,4 @@ gsap.to(".main",{
         scrub:2
     }
 })
+
