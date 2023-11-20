@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fe7d890af.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- head tabs -->
+        
+        <div class="your-head"><h1>WEATHER APP</h1></div>
+        <div class="your-1">
+            <button class="tab" data-userWeather>
+                Your Weather
+            </button>
+            <button class="search" data-searchWeather>
+               Search Weather
+            </button>
+        </div>
+
+        <!-- grant location  -->
+
+        <div class="grant-location-container">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Grant Location Access</h3>
+            <p>Allow Access To Get Weather Information</p>
+            <button class="grant">GRANT ACCESS</button>
+        </div>
+
+        <!-- search form  -->
+
+        <form action="" class="form-container" data-searchForm>
+            <input placeholder="Search for City..." type="text" data-searchInput>
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <!-- Loading Screen  -->
+
+        <div class="loading-container">
+            <i class="fa-solid fa-spinner fa-spin"></i>
+            <p>Loading</p>
+        </div>
+
+        <!-- main content  -->
+
+        <div class="your-2">
+         <div class="your-21">
+            <h3 data-cityName>Palam</h3>
+            <img src="Asset/flag.png" data-countryIcon alt="">
+         </div>
+         <h4 data-weatherDesc >Haze</h4>
+        <div class="wind" data-weatherIcon><i class="fa-solid fa-wind"></i></div>
+        <div class="temp" data-temp >25.08 ºC</div>
+
+        <div class="your-22">
+            <div class="your-221">
+                <img src="Asset/wind.png" alt="">
+                <p>WINDSPEED</p>
+                <p data-windspeed >1.54m/s</p>
+            </div>
+
+            <div class="your-221">
+                <img src="Asset/humidity.png" alt="">
+                <p>HUMIDITY</p>
+                <p data-humidity >50%</p>
+            </div>
+
+            <div class="your-221">
+                <img src="Asset/cloud.png" alt="">
+                <p>CLOUDS</p>
+                <p data-cloudiness>0%</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
