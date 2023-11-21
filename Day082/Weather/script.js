@@ -14,7 +14,7 @@ const userInfoContainer = document.querySelector(".your-2");
 
 let currentTab = userTab;
 
-const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
+const API_KEY = "5b04e2d81292daa7572d01ab79fb62de";
 
 function switchTab(clickTab) {
     if (clickTab != currentTab) {
@@ -78,4 +78,29 @@ async function fetchUserWeatherInfo(coordinates) {
 
 function renderWeatherInfo(data){
     
+    const cityName = document.querySelector("[data-cityName]");
+    const countryIcon = document.querySelector("[data-countryIcon]");
+    const desc = document.querySelector("[data-weatherDesc]");
+    const weatherIcon = document.querySelector("[data-weatherIcon]");
+    const temp = document.querySelector("[data-temp]");
+    const windspeed = document.querySelector("[data-windspeed ]");
+    const humidity = document.querySelector("[data-humidity]");
+    const cloudiness = document.querySelector("[data-cloudiness]");
+
+    // Fetch 
+
+    cityName.innerText = weatherInfo?.name;
+    countryIcon.src = `https://flagcdn.com/144x108/${weatherInfo?.sys?.country.toLowerCase()}.png`;
+    desc.innerText = weatherInfo?.weather?.[0]?.description;
+    weatherIcon.src = `http://openweathermap.org/img/w/${weatherInfo?.weather?.[0]?.icon}.png`;
+    temp.innerText = weatherInfo?.main?.temp;
+    windspeed.innerText = weatherInfo?.wind?.speed;
+    humidity.innerText = weatherInfo?.clouds?.all;
+    cloudiness.innerText = weatherInfo?.clouds?.all;
+
+
+
 }
+
+
+const grantAccessButton = document.querySelector("[data-grantAccess]");
