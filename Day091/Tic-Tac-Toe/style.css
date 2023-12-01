@@ -25,7 +25,7 @@
 }
 
 
-button{
+.btn{
     height: 40px;
     width: 140px;
     border-radius: 5px;
@@ -36,6 +36,19 @@ button{
     font-weight: bold;
     cursor: pointer;
     transition: 300ms ease all;
+    visibility: hidden;
+}
+
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.btn.active{
+    visibility: visible;
 }
 
 .game-info{
@@ -53,12 +66,6 @@ button{
     text-align: center;
 }
 
-
-button:hover{
-    background-color: rgba(255, 255, 255, 0.562);
-    color: #000;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 
 .tic-tac-toe{
     height: 300px;
@@ -95,3 +102,6 @@ button:hover{
     border-right: 3px solid white;
 }
 
+.win{
+    background-color: rgba(0,255,0,0.3);
+}
